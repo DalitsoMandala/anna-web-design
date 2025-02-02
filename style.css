@@ -54,3 +54,12 @@
 .maroon{
     color: #9E005D;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .anna{
+        object-fit: cover;
+        width: 200px;
+    
+    }
+}
