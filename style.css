@@ -1,0 +1,46 @@
+.hero {
+    background-image: url(/images/hero.jpg);
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.anna{
+    object-fit: cover;
+    width: 400px;
+
+}
+
+ .btn-primary{
+    background-color: #9E005D !important;
+    color: white !important;
+    border-color: #9E005D !important;
+    border-radius: 30px !important;
+
+}
+
+.btn-primary:hover{
+    background-color: #5a0e3a !important;
+    color: white !important;
+    border-color: #5a0e3a !important;
+}
+
+*{
+    font-family: "Nunito Sans", serif;
+}
+.bold-900{
+    font-weight: 900 !important;
+}
+
+.custom-nav .nav-item a{
+    color: black !important;
+    font-weight: 700 !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-nav .nav-item a:hover{
+    color: #9E005D !important;
+
+}
