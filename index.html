@@ -14,6 +14,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
 <body>
@@ -66,15 +68,33 @@
     <!-- About Us Section -->
     <section id="about" class="py-5">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h2>About Us</h2>
-                    <p>Pork and Poultry Haven is a growing agribusiness specializing in high-quality poultry and pork
-                        production. Founded by Ms. Anna Zayn Phiri, we are committed to sustainable and ethical farming
-                        practices.</p>
+                    <h2 class="bold-900 mb-5 maroon">About Us</h2>
+                    <p>
+                        <strong>Pork and Poultry Haven</strong> is a rapidly growing agribusiness specializing in the
+                        production of high-quality poultry and pork products.
+                        Founded by <strong>Ms. Anna Zayn Phiri</strong>, our mission is to provide fresh, healthy, and
+                        ethically sourced meats while promoting sustainable farming practices.
+                    </p>
+                    <p>
+                        We believe in <strong>quality, sustainability, and ethical farming</strong>. Our poultry and
+                        pigs are raised in a free-range environment,
+                        ensuring they are well-nurtured, free from harmful additives, and of the highest standard. From
+                        whole chickens to value-added products like marinated cuts and sausages,
+                        we guarantee freshness and rich flavors in every bite.
+                    </p>
+                    <p>
+                        As we continue to grow, we remain committed to supporting local farmers, fostering
+                        environmentally friendly farming methods,
+                        and delivering superior products to households, restaurants, and food businesses. Join us in our
+                        journey towards healthier and tastier meals!
+                    </p>
                 </div>
+
                 <div class="col-md-6">
-                    <img src="images/farm.jpg" alt="Farm Image" class="img-fluid rounded">
+                    <img src="images/close-up-chicken-pen.jpg" style="width: 100%; object-fit:cover" height="500px"
+                        alt="Farm Image" class=" rounded">
                 </div>
             </div>
         </div>
@@ -82,27 +102,55 @@
     <!-- Products Section -->
     <section id="services" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center">Our Products</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/chicken.jpg" class="card-img-top" alt="Broiler Chicken">
+            <h2 class="text-center bold-900 mb-5 maroon">Our Products</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <!-- Whole Chickens -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-none bg-transparent">
+                        <img src="images/chickenfarm.jpg" class="card-img-top rounded" alt="Whole Chickens">
                         <div class="card-body">
-                            <h5 class="card-title">Broiler Chickens</h5>
-                            <p class="card-text">Fresh and healthy broiler chickens available for purchase.</p>
-                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <h5 class="card-title text-center">Whole Chickens</h5>
+                            <p class="card-text text-center">
+                                Our whole chickens are raised in a <strong>free-range environment</strong>, ensuring
+                                they are
+                                healthy, flavorful, and ethically sourced for the best farm-to-table experience.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/pork.jpg" class="card-img-top" alt="Pork Products">
+
+                <!-- Chicken Cuts -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-none bg-transparent">
+                        <img src="images/uncooked-chicken-legs-pink-plate1.jpg" class="card-img-top rounded"
+                            alt="Chicken Cuts">
                         <div class="card-body">
-                            <h5 class="card-title">Pork Products (Coming Soon)</h5>
-                            <p class="card-text">Stay tuned for our high-quality pork products.</p>
+                            <h5 class="card-title text-center">Chicken Cuts</h5>
+                            <p class="card-text text-center">
+                                We offer a variety of fresh cuts, including <strong>breasts, thighs, wings, and
+                                    drumsticks</strong>,
+                                perfect for home cooking, grilling, and gourmet meals.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Value-Added Products -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-none bg-transparent">
+                        <img src="images/bavarian-fried-sausages-sauerkraut1.jpg" class="card-img-top rounded"
+                            alt="Value-Added Products">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Value-Added Products</h5>
+                            <p class="card-text text-center">
+                                Our selection includes <strong>marinated chicken breasts, grilled chicken sausages, and
+                                    crispy chicken burgers</strong>—perfect for quick and delicious meals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -110,21 +158,18 @@
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-center">Contact Us</h2>
-            <p class="text-center">Get in touch for orders or inquiries.</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>Business Address</h4>
-                    <p>123 Farm Road, City, Country</p>
-                    <p><strong>Phone:</strong> +123 456 7890</p>
-                    <p><strong>Email:</strong> contact@porkpoultryhaven.com</p>
-                </div>
-                <div class="col-md-6">
-                    <h4>Follow Us</h4>
-                    <p>Stay connected through our social media channels.</p>
-                    <a href="#" class="btn btn-outline-primary">Facebook</a>
-                    <a href="#" class="btn btn-outline-danger">Instagram</a>
-                    <a href="#" class="btn btn-outline-success">WhatsApp</a>
+            <h2 class="text-center maroon bold-900">Contact Us</h2>
+            <p class="text-center">Stay connected through our social media channels.</p>
+            <div class="row justify-content-center">
+
+                <div class="col-md-6 text-center">
+
+                    <a href="mailto:annaz.phiri@gmail.com" data-bs-toggle="tooltip" data-bs-title="Email"
+                        class="btn btn-primary rounded-1"><i class="bx bx-mail-send"></i></a>
+                    <a href="https://web.facebook.com/" class="btn btn-primary rounded-1"> <i
+                            class="bx bxl-facebook"></i></a>
+                    <a href="#" class="btn btn-primary rounded-1"> <i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="btn btn-primary rounded-1"><i class="bx bxl-whatsapp"></i></a>
                 </div>
             </div>
         </div>
@@ -143,7 +188,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/dist/boxicons.min.js"></script>
 
 
 </body>
